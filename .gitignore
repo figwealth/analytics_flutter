@@ -36,3 +36,5 @@ build/
 
 # VSCode
 launch.json
+/.fvm/flutter_sdk
+/.fvm/fvm_config.json
