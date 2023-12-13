@@ -10,12 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  analytics: 
-    git: 
-      url: https://github.com/figwealth/analytics_flutter.git
-      ref: main
-      path: packages/core 
+  #  analytics:
+  #    git:
+  #      url: https://github.com/figwealth/analytics_flutter.git
+  #      ref: main
+  #      path: packages/core
   plugin_platform_interface: ^2.0.2
+  analytics:
+    path: ../../core
 
 dev_dependencies:
   flutter_test:

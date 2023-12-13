@@ -10,11 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  analytics: 
-    git: 
-      url: https://github.com/segmentio/analytics_flutter
-      ref: main
-      path: packages/core 
+  #  analytics:
+  #    git:
+  #      url: https://github.com/segmentio/analytics_flutter
+  #      ref: main
+  #      path: packages/core
+  analytics:
+    path: ../../core
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
